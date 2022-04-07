@@ -1,6 +1,6 @@
-# onesignal_and_flutter
+# OneSignal Flutter Integreation
 
-Onesignal Flutter integration sample
+This repo contains a sample project integrating OneSignal into a Flutter mobile app.
 
 ## Getting Started
 
