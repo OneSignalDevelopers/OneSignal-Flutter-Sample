@@ -1,8 +1,8 @@
 # OneSignal Flutter Integration
 
-This repo contains a sample project integrating OneSignal into a Flutter mobile app. There are quite a few moving pieces to get this sample to work due to the nature of Flutter and the platforms it targets.
+This repo contains a sample project integrating the [OneSignal Flutter SDK](https://github.com/OneSignal/OneSignal-Flutter-SDK) into a Flutter mobile app. 
 
-When you open this project in your editor, you will need to find and replace all for the following search term: `com.example.onesignal_and_flutter`. Replace `com.example` with your unique identifier before running for the first time.
+There are quite a few moving pieces to get this sample to work due to the nature of Flutter and the platforms it targets. When you open this project in your editor, you will need to find `com.example.onesignal_and_flutter` and replace all `com.example` with your unique identifier before running for the first time.
 
 ## OneSignal
 
