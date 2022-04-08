@@ -6,9 +6,12 @@ This repo contains a sample project integrating the [OneSignal Flutter SDK](http
 
 There are quite a few moving pieces to get this sample to work due to the nature of Flutter and the platforms it targets. 
 
-* Make sure you have Flutter, Android, and Android Studio installed and properly setup (i.e. you can already create, run, and deploy Flutter apps).
-* Make sure you have CocoaPods installed on your machine if targeting iOS.
-* ⚠️ When you open this project in your editor, you will need to find `com.example.onesignal_and_flutter` and replace all `com.example` with your unique identifier before running for the first time.
+0. Make sure you have Flutter, Android, and Android Studio installed and properly setup (i.e. you can already create, run, and deploy Flutter apps). If you're targeting iOS, ensure CocoaPods are installed.
+1. ⚠️ Open the project, find all `com.example.onesignal_and_flutter` terms and replace `com.example` with your unique identifier (e.g. `io.android.onesignal_and_flutter`).
+2. Configure OneSignal.
+3. Setup push for Android.
+4. Setup push for iOS.
+5. Start the project using `flutter run`. Alternatively, you can use Android Studio to start your project on the device you specify.
 
 ## OneSignal
 
