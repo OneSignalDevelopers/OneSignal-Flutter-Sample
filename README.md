@@ -1,25 +1,23 @@
 # OneSignal Flutter Integreation
 
-This repo contains a sample project integrating OneSignal into a Flutter mobile app.
+This repo contains a sample project integrating OneSignal into a Flutter mobile app. There are quite a few moving pieces to get this sample to work due to the nature of Flutter and the platforms it targets.
 
-## Getting Started
+When you open this project in your editor, you will need to do a find and replace all for the following search term: `com.example.onesignal_and_flutter`. Replace `com.example` with your own unique identifier before running for the first time.
 
-- [Setup OneSignal](https://app.onesignal.com/signup) account if you don't already have one
-- Add a new project to your [Firebase console](https://console.firebase.google.com/) – for Android push notifications
-- Upload a push certficate to your [Apple Developer account](https://developer.apple.com) – for iOS push notifications
+## OneSignal
 
-### OneSignal
+[Setup OneSignal](https://app.onesignal.com/signup) account if you don't already have one.
 
 From your [OneSignal Dashboard](https://app.onesignal.com/apps).
 
-#### Configuring Android
+### Configuring Android
 
 1. Create a new app.
 2. If you're targeting Android and iOS, setup mobile push for Android first, otherwise, select iOS.
 3. Enter your Firebase info.
 4. Select Flutter as your SDK.
 
-#### Configuring iOS
+### Configuring iOS
 
 1. Select your app in the dashboard.
 2. Navigate to settings.
@@ -28,18 +26,20 @@ From your [OneSignal Dashboard](https://app.onesignal.com/apps).
 5. Enter the passphrase you encrypted your certificate with.
 6. Select Flutter as your SDK.
 
-### Android
+## Android
 
-From your [Firbase console](https://console.firebase.google.com/u/0/).
+### 1 - Add a new project to your [Firebase console](https://console.firebase.google.com/) – for Android push notifications
 
 1. Add project.
 2. Navigate to _Project settings_.
 3. Select the _Cloud Messaging_ tab.
 4. Copy **Server key** and **Sender ID**.
 
-### iOS
+## iOS
 
 It's not possible to send push notifications to the iOS similator, so you will need to provision a certificate that will enable to you to send notifications to a physical device.
+
+### 2 - Upload a push certficate to your Apple Developer account
 
 #### 1 - Provision app identifier
 
