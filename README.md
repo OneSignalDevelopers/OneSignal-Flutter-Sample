@@ -4,11 +4,38 @@ This repo contains a sample project integrating OneSignal into a Flutter mobile 
 
 ## Getting Started
 
-1. [Setup OneSignal](https://app.onesignal.com/signup) account if you don't already have one
-2. Add a new project to your [Firebase console](https://console.firebase.google.com/) – for Android push notifications
-3. Upload a push certficate to your [Apple Developer account](https://developer.apple.com) – for iOS push notifications
+- [Setup OneSignal](https://app.onesignal.com/signup) account if you don't already have one
+- Add a new project to your [Firebase console](https://console.firebase.google.com/) – for Android push notifications
+- Upload a push certficate to your [Apple Developer account](https://developer.apple.com) – for iOS push notifications
+
+### OneSignal
+
+From your [OneSignal Dashboard](https://app.onesignal.com/apps).
+
+#### Configuring Android
+
+1. Create a new app.
+2. If you're targeting Android and iOS, setup mobile push for Android first, otherwise, select iOS.
+3. Enter your Firebase info.
+4. Select Flutter as your SDK.
+
+#### Configuring iOS
+
+1. Select your app in the dashboard.
+2. Navigate to settings.
+3. Find and select iOS in the platform list.
+4. Upload your certificate (`*.p12`).
+5. Enter the passphrase you encrypted your certificate with.
+6. Select Flutter as your SDK.
 
 ### Android
+
+From your [Firbase console](https://console.firebase.google.com/u/0/).
+
+1. Add project.
+2. Navigate to _Project settings_.
+3. Select the _Cloud Messaging_ tab.
+4. Copy **Server key** and **Sender ID**.
 
 ### iOS
 
