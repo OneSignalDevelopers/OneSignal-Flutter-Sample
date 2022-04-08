@@ -2,18 +2,18 @@
 
 This repo contains a sample project integrating OneSignal into a Flutter mobile app. There are quite a few moving pieces to get this sample to work due to the nature of Flutter and the platforms it targets.
 
-When you open this project in your editor, you will need to do a find and replace all for the following search term: `com.example.onesignal_and_flutter`. Replace `com.example` with your own unique identifier before running for the first time.
+When you open this project in your editor, you will need to find and replace all for the following search term: `com.example.onesignal_and_flutter`. Replace `com.example` with your unique identifier before running for the first time.
 
 ## OneSignal
 
-[Setup OneSignal](https://app.onesignal.com/signup) account if you don't already have one.
+[Setup OneSignal](https://app.onesignal.com/signup) account.
 
 From your [OneSignal Dashboard](https://app.onesignal.com/apps).
 
 ### Configuring Android
 
 1. Create a new app.
-2. If you're targeting Android and iOS, setup mobile push for Android first, otherwise, select iOS.
+2. If you're targeting Android and iOS, set up mobile push for Android first; otherwise, select iOS.
 3. Enter your Firebase info.
 4. Select Flutter as your SDK.
 
@@ -23,7 +23,7 @@ From your [OneSignal Dashboard](https://app.onesignal.com/apps).
 2. Navigate to settings.
 3. Find and select iOS in the platform list.
 4. Upload your certificate (`*.p12`).
-5. Enter the passphrase you encrypted your certificate with.
+5. Enter the passphrase for your certificate.
 6. Select Flutter as your SDK.
 
 ## Android
@@ -37,36 +37,36 @@ From your [OneSignal Dashboard](https://app.onesignal.com/apps).
 
 ## iOS
 
-It's not possible to send push notifications to the iOS similator, so you will need to provision a certificate that will enable to you to send notifications to a physical device.
+It's impossible to send push notifications to the iOS simulator, so you will need to provide a certificate that will enable you to send messages to a physical device.
 
-### 2 - Upload a push certficate to your Apple Developer account
+### 2 - Upload a push certificate to your Apple Developer account
 
 #### 1 - Provision app identifier
 
-From your [Apple developer portal](https://developer.apple.com).
+From the [Apple developer portal](https://developer.apple.com).
 
-1. Navigate to _Indentifiers_ page.
+1. Navigate to the _Indentifiers_ page.
 2. Click the _Add Indentifier_ button.
 3. Select **App IDs** option and continue.
-4. Select **App** option and continue.
+4. Select the **App** option and continue.
 5. Enter a short description of the app in the _Description_ field.
-6. Copy the **Bundle ID** from the Xcode project and paste it into the _Bundle ID_ text field and click _Continue_.
-7. Confirm the configuration is correct and click _Register_ button.
+6. Copy the **Bundle ID** from the Xcode project, paste it into the _Bundle ID_ text field, and click _Continue_.
+7. Confirm the configuration is correct and click the _Register_ button.
 
 #### 2 - Create certificate request
 
 Using Keychain Access.
 
 1. From the top menu bar, choose _Keychain Access_ > _Certificate Assistant_ > _Request a Certificate From a Certificate Authority_.
-2. Enter the email address and name you want associated with the cert.
-3. Choose **Save to disk** option for _Request is_ field.
+2. Enter the email address and name you want to be associated with the cert.
+3. Choose **Save to disk** option for the _Request is_ field.
 4. Click continue to create the certificate request.
 
 #### 3 - Add push capability to app identifier
 
 From your [Apple developer portal](https://developer.apple.com).
 
-1. Navigate to _Indentifiers_ page.
+1. Navigate to the _Indentifiers_ page.
 2. Enable _Push_ in the capabilities list (you don't need to configure it).
 
 #### 4 - Create a certificate
@@ -77,7 +77,7 @@ From your [Apple developer portal](https://developer.apple.com).
 2. Click the _Add Certificate_ button.
 3. Choose **Apple Push Notification service SSL (Sandbox & Production)** under _Services_ and click continue.
 4. Select the _App ID_ to associate the certificate with and click _Continue_.
-5. Upload the certificate request file that was created when you requested a certificate and click continue.
+5. Upload the certificate request file.
 6. Click the _Download_ button to get a local copy of `aps.cer`.
 
 #### 5 - Create a private key
@@ -99,7 +99,7 @@ From your OneSignal app's settings page.
 
 #### Potential issues you may face
 
-A list of potenital issues you may face and how to resolve them.
+A list of potential issues you may face and how to resolve them.
 
 ##### New certificate is not trusted
 
