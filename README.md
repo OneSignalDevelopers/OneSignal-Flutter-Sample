@@ -76,4 +76,6 @@ A list of potenital issues you may face and how to resolve them.
 
 ##### New certificate is not trusted
 
+![Invalid certificate](<assets/keychain%20(censored).png>)
+
 The underlying issue seems to be due to some CA expiring at the beginning of 2022 (ref: [Apple Worldwide Developer Relations Intermediate Certificate Expiration](https://developer.apple.com/support/expiration/)). Download the **Worldwide Developer Relations - G4 (Expiring 12/10/2030 00:00:00 UTC)** from the [Apple PKI](https://www.apple.com/certificateauthority/).
