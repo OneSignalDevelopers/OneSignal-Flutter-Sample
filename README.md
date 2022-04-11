@@ -1,6 +1,6 @@
 # OneSignal Flutter Integreation
 
-This repo contains a sample project integrating the OneSignal [Flutter SDK](https://github.com/OneSignal/OneSignal-Flutter-SDK) into a starter Flutter targeting for Android and iOS. 
+This repo contains a sample project integrating the OneSignal [Flutter SDK](https://github.com/OneSignal/OneSignal-Flutter-SDK) into a starter Flutter targeting for Android and iOS.
 
 ## Getting Started
 
@@ -49,4 +49,8 @@ Open the project in Android Studio or VS Code.
 
 ## Community
 
-OneSignal has a growing community of excited developers and integrators. You can join us on [Discord](https://discord.gg/aanp5VFp6M) and follow us on [Twitter](https://twitter.com/onesignaldevelopers).
+OneSignal has a growing [community](https://onesignal.com/onesignal-developers) of excited developers and integrators. You can join us on [Discord](https://discord.gg/aanp5VFp6M) and follow us on [Twitter](https://twitter.com/onesignaldevelopers).
+
+## Beta Program
+
+The [OneSignal Beta Program](https://onesignal.com/beta-program) is a diverse group of users and companies who participate in our feature development process. Beta members help shape the future of OneSignal products by providing feedback, sharing ideas, and testing out new features before they're released.
