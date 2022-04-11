@@ -2,22 +2,22 @@
 
 This repo contains a sample project integrating the OneSignal [Flutter SDK](https://github.com/OneSignal/OneSignal-Flutter-SDK) into a starter Flutter targeting for Android and iOS. There are quite a few moving pieces to get this sample to work due to the nature of Flutter and the platforms it targets.
 
-
-## Getting Started 
+## Getting Started
 
 ### OneSignal
 
 0. [Setup a OneSignal account](https://app.onesignal.com/signup) if you don't already have one.
 1. Use the [OneSignal Dashboard](https://app.onesignal.com/apps) to create a new app.
-2. Configure the platform you'd like to target (I recommend starting with Android first)
+2. Configure the platform you'd like to target...
 
 ### Configuring Android
 
+I recommend starting with Android first.
+
 0. [Create a new Firebase project](/docs/setting-up-firebase-project.md)
 1. Select your app in the OneSignal dashboard.
-2. If you're targeting Android and iOS, setup mobile push for Android first, otherwise, select iOS.
-3. Enter your Firebase info.
-4. Select Flutter as your SDK.
+2. Enter your Firebase info.
+3. Select Flutter as your SDK.
 
 ### Configuring iOS
 
